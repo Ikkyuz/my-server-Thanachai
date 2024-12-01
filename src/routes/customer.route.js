@@ -9,3 +9,5 @@ app.post("/customers", controller.create);
 app.put("/customers/:id", controller.edit);
 app.patch("/customers/:id", controller.patch);
 app.delete("/customers/:id", controller.delete);
+
+module.exports = app;
